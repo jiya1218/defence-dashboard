@@ -2,6 +2,9 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 # Import the dashboard functions from your existing files
 from dashboard_malaysia import malaysia_dashboard
 from dashboard_global import global_dashboard
