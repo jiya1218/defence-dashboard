@@ -3,3 +3,9 @@ pandas
 openpyxl
 Pillow
 pytz
+requests
+beautifulsoup4
+deep-translator
+gTTS
+streamlit-mic-recorder
+urllib3
